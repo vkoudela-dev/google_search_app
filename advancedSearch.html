@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <button type="button">
+        <a href="index.html">Google Search</a>
+      </button>
+    </nav>
+    <h1>Advanced search</h1>
+    <form class="advancedForm" action="https://google.com/search">
+      <h2>Find pages with...</h2>
+      <div class="flex_container">
+        <label class="label1"> all these words: </label>
+        <input
+          class="advanced_text advanced_text1"
+          autofocus
+          autocomplete="off"
+          type="text"
+          name="as_q"
+        />
+        <label class="label1"> this exact word or phrase: </label>
+        <input
+          class="advanced_text advanced_text1"
+          autofocus
+          autocomplete="off"
+          type="text"
+          name="as_epq"
+        />
+        <label class="label1"> any of these words: </label>
+        <input
+          class="advanced_text advanced_text1"
+          autofocus
+          autocomplete="off"
+          type="text"
+          name="as_oq"
+        />
+        <label class="label1"> none of these words: </label>
+        <input
+          class="advanced_text advanced_text1"
+          autofocus
+          autocomplete="off"
+          type="text"
+          name="as_eq"
+        />
+      </div>
+      <input class="advanced_btn" type="submit" value="Advanced Search" />
+    </form>
+  </body>
+</html>

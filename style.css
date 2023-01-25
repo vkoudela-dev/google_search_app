@@ -1,0 +1,97 @@
+body {
+  margin: 20px;
+}
+
+nav {
+  text-align: right;
+  margin: 3rem;
+}
+
+nav > button {
+  margin: 1.2rem;
+  padding-block: 1.2rem;
+  background-color: bisque;
+  border-radius: 10px;
+}
+
+nav a {
+  font-weight: bold;
+  color: rgb(88, 39, 21);
+  text-decoration: none;
+  font-size: 20px;
+  padding-inline: 2.5rem;
+  padding-block: 1.1rem;
+}
+
+form {
+  text-align: center;
+  margin-left: 30px;
+}
+
+input {
+  margin: 10px;
+}
+
+input[type="submit"] {
+  padding-inline: 30px;
+  padding-block: 15px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.advanced_text {
+  font-size: 20px;
+  padding: 5px;
+  width: 25%;
+}
+
+label {
+  font-size: 20px;
+}
+
+.advancedForm {
+  text-align: left;
+}
+
+.inputText {
+  border-radius: 50px;
+  width: 50%;
+  margin-top: 15%;
+  font-size: 30px;
+  padding-block: 15px;
+  padding-inline: 30px;
+}
+
+.inputBtn {
+  border-radius: 10px;
+}
+
+h1 {
+  color: brown;
+  margin-left: 30px;
+  margin-block: 60px;
+}
+
+.advanced_btn {
+  margin-left: 30%;
+  margin-top: 50px;
+  color: white;
+  background-color: blue;
+}
+
+.flex_container {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.label1 {
+  flex: 35%;
+  align-self: baseline;
+}
+
+.advanced_text1 {
+  flex: 55%;
+  align-self: baseline;
+}
